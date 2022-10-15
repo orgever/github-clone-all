@@ -2,7 +2,7 @@ FROM debian:bullseye
 
 RUN apt update -y && apt install -y curl jq bc git
 
-COPY . /code
+COPY ./src /code
 
 WORKDIR /code
 
