@@ -1,4 +1,4 @@
-# Clone all repo from GitHub org
+# Clone all repos from GitHub org
 
 Usage:
 
