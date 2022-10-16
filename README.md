@@ -3,5 +3,5 @@
 Usage:
 
 ```
-docker run -e GITHUB_TOKEN=<PAT> -e GITHUB_ORG=<ORG> -v <PATH>:/git -v ~/.ssh:/root/.ssh --rm -it github-clone-all
+docker run -e GITHUB_TOKEN=<PAT> -e GITHUB_ORG=<ORG> -v <PATH>:/git -v ~/.ssh:/root/.ssh --rm -it orgever/github-clone-all
 ```
