@@ -41,3 +41,10 @@ jobs:
           context: .
           push: true
           tags: orgever/github-clone-all:latest
+
+      - name: Update repo description
+        uses: peter-evans/dockerhub-description@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: user/app
